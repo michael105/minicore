@@ -3,7 +3,6 @@ Ongoing work.
 I'm trying to get a usable unix system (without the kernel)
 within 64kB. All tools statically linked with (minilib)[minilib].
 
-
 Ok. Possibly it's going to be 128kB.
 But no more. 128kB ought to be enough for everycore. Eeh. Something like this.
 
@@ -25,6 +24,13 @@ than having symbolic links to multicall binaries.
 Amongst other, it's easier to customize them.
 And they are in a central directory. Aliases always tend to be spread 
 over several config files, at least on my systems.
+
+---
+
+For compiling, you'll need the script mini-gcc from minilib.
+What, again, reminds me of my plan to put the whole minilib into
+this script. No installing anymore, no version problems, just 
+one wrapper script mini-gcc. 
 
 
 
