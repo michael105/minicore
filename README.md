@@ -52,9 +52,15 @@ It's more sort of a soothing puzzle to me.
 And at the moment, I can need some relaxation. 
 I have some troubles with a misfits person.
 Firstly, deliberatedly annoying and even seriously hurting me. 
-And at the moment, I can't ignore this person anymore . ..
+And at the moment, I can't ignore this person anymore . .. 
+I just did tell, I'm going to the court. 
+And even before that, I several times clearly warned. well. uuuuh.
 never mind. I better port another tool.
 
+I really do not get, what some woman do have in their mind.
+I'm in a, well, very close relationship, for a long time now.
+What the f does a crazy woman believe she's up to?? 
+Or whatever the explanation night be. 
 
 ---
 
