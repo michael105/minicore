@@ -60,7 +60,11 @@ never mind. I better port another tool.
 I really do not get, what some woman do have in their mind.
 I'm in a, well, very close relationship, for a long time now.
 What the f does a crazy woman believe she's up to?? 
-Or whatever the explanation night be. 
+Or whatever the explanation might be. 
+But she might have realized, she really did severe damage to me.
+Instead of stopping - well, go on, go on. 
+Until I warn, until I explicitely tell I'm going to the court. 
+The reaction - uuuuuuhhhhh. Didn't I say, I'm going to port another tool.?.
 
 ---
 
