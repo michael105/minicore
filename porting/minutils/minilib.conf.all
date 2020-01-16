@@ -1,0 +1,113 @@
+# configfile, enabling all buildoptions.
+
+
+mini_buf 4096
+
+
+# --- minilib_config-start: Allswitches --- 
+
+# === miniaddons.h
+mini_vsnprintf
+mini_itodec
+mini_printl
+mini_dtodec
+mini_snprintf
+mini_memfrob
+mini__itobin
+mini_def
+mini_dprintf
+mini_print
+mini_uitodec
+
+
+# === ioctl.h
+mini_ioctl
+
+
+# === declarations.h
+mini_getcwd
+mini_stat
+mini_gettimeofday
+mini_dup3
+mini_mprotect
+mini_fstat
+
+
+# === fcntl.h
+mini_creat
+
+
+# === time.h
+mini_time
+
+
+# === unistd.h
+mini_select
+mini_getpid
+mini_rename
+mini_dup
+mini_fsync
+mini_unlink
+mini_tcsetattr
+mini_dup2
+mini_lseek
+mini_open
+mini_def
+mini_read
+mini_tcgetattr
+mini_ftruncate
+mini_close
+mini_write
+
+
+# === stdio.h
+mini_itohex
+mini_fread
+mini_putchar
+mini_fwrite
+mini_feof
+mini_fputs
+mini_fprintf
+mini_fgetpos
+mini_fopen
+mini_rewind
+mini__itohex
+mini_sprintf
+mini_puts
+mini_ftell
+mini_itoHEX
+mini_fseek
+mini_fsetpos
+mini_fputc
+mini_printf
+mini_fclose
+mini_fileno
+
+
+# === stdlib.h
+mini_getenv
+mini_rand
+mini_atoi
+mini_srand
+mini_free
+mini_malloc
+
+
+# === string.h
+mini_strcat
+mini_memcpy
+mini_strncpy
+mini_strcmp
+mini_strerror
+mini_strlen
+mini_memcmp
+mini_strncmp
+mini_memset
+mini_strcpy
+
+
+# === ctype.h
+mini_isprint
+mini_isspace
+
+# --- minilib_config-end: Allswitches --- 

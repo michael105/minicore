@@ -1,0 +1,73 @@
+# 1 "cat.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 1 "<command-line>" 2
+# 1 "/dev/fd/63" 1
+# 1 "<command-line>" 2
+# 1 "cat.c"
+# 1 "/home/micha/prog/minilib/compat/fcntl.h" 1
+# 2 "cat.c" 2
+# 1 "/home/micha/prog/minilib/compat/unistd.h" 1
+# 3 "cat.c" 2
+
+# 1 "/home/micha/prog/minilib/compat/errno.h" 1
+
+
+
+
+
+# 1 "/home/micha/prog/minilib/include/errno.h" 1
+# 136 "/home/micha/prog/minilib/include/errno.h"
+extern int errno;
+# 7 "/home/micha/prog/minilib/compat/errno.h" 2
+# 5 "cat.c" 2
+# 1 "/home/micha/prog/minilib/compat/stdio.h" 1
+# 6 "cat.c" 2
+# 1 "/home/micha/prog/minilib/compat/string.h" 1
+# 7 "cat.c" 2
+
+static const char *argv0;
+
+static int cat(int fd)
+{
+ char buf[4096];
+ ssize_t n;
+
+ while ((n = _M_MLIB_read_M_()) > 0) {
+  if (_M_MLIB_write_M_() != n) {
+   _M_MLIB_fprintf_M_()
+                           ;
+   return 1;
+  }
+ }
+ return 0;
+}
+
+
+int main(int argc, const char *argv[])
+{
+ int i;
+
+ argv0 = argv[0];
+ if (argc == 1) {
+  return cat(STDIN_FILENO);
+ } else for (i = 1; i < argc; i++) {
+  int fd;
+
+  fd = _M_MLIB_open_M_();
+  if (fd < 0) {
+   _M_MLIB_fprintf_M_()
+                                      ;
+   return 1;
+  }
+  if (cat(fd))
+   return 1;
+  if (_M_MLIB_close_M_()) {
+   _M_MLIB_fprintf_M_()
+                                      ;
+   return 1;
+  }
+ }
+ return 0;
+}
