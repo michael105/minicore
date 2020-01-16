@@ -1,4 +1,4 @@
-Ongoing work. 
+Ongoing work. A soothing puzzle.
 
 I'm trying to get a usable unix system (without the kernel)
 within 64kB. All tools statically linked with (minilib)[minilib].
