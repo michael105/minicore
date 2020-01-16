@@ -41,5 +41,3 @@ partially scratched together from: suckless base utils, minutils, minix.
 
 I keep all copyright notices within the sources.
 
-
-

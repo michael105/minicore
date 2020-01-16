@@ -1,3 +1,4 @@
+// source: suckless base ( I guess )
 #include <sys/utsname.h>
 
 #include <errno.h>
