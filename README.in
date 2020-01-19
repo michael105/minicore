@@ -27,10 +27,23 @@ over several config files, at least on my systems.
 
 ---
 
+When looking for something usable, and you do not need only single tools,
+you're most possibly better with something more mature and more serious.
+I personally like the toybox project very much. 
+Its mature, has a quite stringent posix implementation, and is also below 
+1MB overall.
+
+http://github.com/toybox
+
+---
+
+
 For compiling, you'll need the script mini-gcc from minilib.
-What, again, reminds me of my plan to put the whole minilib into
+~What, again, reminds me of my plan to put the whole minilib into
 this script. No installing anymore, no version problems, just 
-one wrapper script mini-gcc. 
+one wrapper script mini-gcc.¨
+
+Done. `curl http://github.com/ ..TODO ` and you're good to go.
 
 
 

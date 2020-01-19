@@ -27,10 +27,23 @@ over several config files, at least on my systems.
 
 ---
 
+When looking for something usable, and you do not need only single tools,
+you're most possibly better with something more mature and more serious.
+I personally like the toybox project very much. 
+Its mature, has a quite stringent posix implementation, and is also below 
+1MB overall.
+
+http://github.com/toybox
+
+---
+
+
 For compiling, you'll need the script mini-gcc from minilib.
-What, again, reminds me of my plan to put the whole minilib into
+~What, again, reminds me of my plan to put the whole minilib into
 this script. No installing anymore, no version problems, just 
-one wrapper script mini-gcc. 
+one wrapper script mini-gcc.¨
+
+Done. `curl http://github.com/ ..TODO ` and you're good to go.
 
 
 
@@ -73,17 +86,18 @@ The reaction - uuuuuuhhhhh. Didn't I say, I'm going to port another tool.?.
 ```
 basename        2019-08-19             493
 cat             2019-08-20             1038
-echo            2020-01-15             393
+echo            2020-01-19             368
 false           2019-08-19             153
 getenv          2019-08-19             782
 head            2019-08-20             1407
 ls              2020-01-15             13344
-pwd             2019-08-19             277
+pwd             2020-01-19             305
 tail            2019-08-20             2576
 tee             2019-08-19             2335
+touch           2020-01-19             464
 true            2019-08-19             150
-uname           2019-08-19             1346
+uname           2020-01-19             1362
 yes             2020-01-15             309
 ===============================================
-                          size: 24603 Bytes
+                          size: 25086 Bytes
 ```
