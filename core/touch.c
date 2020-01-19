@@ -6,7 +6,7 @@ mini_write
 mini_writes
 mini_read
 mini_GETOPTS
-
+LDSCRIPT text_and_bss
 shrinkelf
 INCLUDESRC
 return
@@ -38,7 +38,7 @@ int main(int argc, char **argv){
 				// Also when syncing the file.
 				// so I removed the option.
 				// It might be neccessary, to use utime here.
-				// Anyways, the binary already is at 511 Bytes.
+				// Anyways, the binary already is at 464 Bytes.
 				// I'd really love having all core utils within 64kB.
 				// So, cannot afford too many rarely used options.
 				close(fd);

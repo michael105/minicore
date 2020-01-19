@@ -22,6 +22,7 @@ LDSCRIPT default
 
 mini_close
 mini_fprintf
+mini_fputs
 mini_open
 mini_strerror
 mini_time

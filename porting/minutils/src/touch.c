@@ -1,11 +1,6 @@
-#include <fcntl.h>
-#include <unistd.h>
-#include <utime.h>
+#include "minilib.h"
 
-#include <errno.h>
-#include <stdio.h>
-#include <string.h>
-#include <time.h>
+#define time_t long int;
 
 static const char *argv0;
 
