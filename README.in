@@ -25,6 +25,33 @@ Amongst other, it's easier to customize them.
 And they are in a central directory. Aliases always tend to be spread 
 over several config files, at least on my systems.
 
+
+And, to say that clearly and repeatedly, it's a fun project. 
+I just like to have a unix system within 64kB. ;)
+The intention is not on being posix, systemV or whatever compatible.
+And for the command line options, I'm also going to implement only 
+those, I'm using mostly, or which don't add to much size.
+
+There are other projects out there with a serious (what's the word?) 'approach'.
+I personally like 'toybox' most.
+Albite I also still believe, sort of a 'microkernel' is a better approach,
+and toybox is monlithic. But that's a question, I'm not sure yet.
+The advantages of an monolithic approach are undeniable there.
+
+On the other hand, my experiences with small statically linked tools are
+very good, as well. 
+When about performance, small statically linked tools surprisingly are more responsive. 
+When thinking about it, it's not so surprising. Only the needed "parts" of the code ar
+e loaded,
+the small tools (mainly less than 1kB fit even into the cpu's cache, 
+they also are buffered in the memory's cache for the hd,
+and there's no linker needed.
+Also, dropping unicode, language, and whatever support is no loss,
+at least not for me. 
+Who in the world would need unicode support for system development/programming/..?
+Ok. That's about glibc, and also musl et al.
+But they also do have other targets.
+
 ---
 
 When looking for something usable, and you do not need only single tools,
@@ -62,22 +89,6 @@ I keep all copyright notices within the sources.
 
 Please, don't get this project too serious. 
 It's more sort of a soothing puzzle to me.
-And at the moment, I can need some relaxation. 
-I have some troubles with a misfits person.
-Firstly, deliberatedly annoying and even seriously hurting me. 
-And at the moment, I can't ignore this person anymore . .. 
-I just did tell, I'm going to the court. 
-And even before that, I several times clearly warned. well. uuuuh.
-never mind. I better port another tool.
-
-I really do not get, what some woman do have in their mind.
-I'm in a, well, very close relationship, for a long time now.
-What the f does a crazy woman believe she's up to?? 
-Or whatever the explanation might be. 
-But she might have realized, she really did severe damage to me.
-Instead of stopping - well, go on, go on. 
-Until I warn, until I explicitely tell I'm going to the court. 
-The reaction - uuuuuuhhhhh. Didn't I say, I'm going to port another tool.?.
 
 ---
 
