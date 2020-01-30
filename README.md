@@ -41,14 +41,13 @@ The advantages of an monolithic approach are undeniable there.
 On the other hand, my experiences with small statically linked tools are
 very good, as well. 
 When about performance, small statically linked tools surprisingly are more responsive. 
-When thinking about it, it's not so surprising. Only the needed "parts" of the code ar
-e loaded,
+When thinking about it, it's not that surprising. Only the needed "parts" of the code are loaded,
 the small tools (mainly less than 1kB fit even into the cpu's cache, 
 they also are buffered in the memory's cache for the hd,
 and there's no linker needed.
 Also, dropping unicode, language, and whatever support is no loss,
 at least not for me. 
-Who in the world would need unicode support for system development/programming/..?
+Who in the world would need unicode support for system development/programming/..? ;) I know..
 Ok. That's about glibc, and also musl et al.
 But they also do have other targets.
 
