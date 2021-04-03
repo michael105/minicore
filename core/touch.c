@@ -41,6 +41,7 @@ int main(int argc, char **argv){
 				// Anyways, the binary already is at 464 Bytes.
 				// I'd really love having all core utils within 64kB.
 				// So, cannot afford too many rarely used options.
+				// (misc)
 				close(fd);
 		}
 

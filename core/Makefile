@@ -1,12 +1,15 @@
+ifndef MINIGCC
+	MINIGCC=mini-gcc
+endif
 
 
 ifdef PROG
 
 $(PROG): $(PROG).c
 ifneq ("$(wildcard $(PROG).mconf)","")
-		mini-gcc --config  $(PROG).mconf -o $(PROG) $(PROG).c
+		$(MINIGCC) --config  $(PROG).mconf -o $(PROG) $(PROG).c
 else
-		mini-gcc --config  $(PROG).c -o $(PROG) $(PROG).c
+		$(MINIGCC) --config  $(PROG).c -o $(PROG) $(PROG).c
 endif
 
 endif

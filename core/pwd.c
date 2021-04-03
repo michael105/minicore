@@ -10,14 +10,15 @@ return
 #endif
 #include "minilib.h"
 
-int main(int argc, const char *argv[]){
-		char cwd[PATH_MAX];
+int main(int argc, const char *argv[])
+{
+	char cwd[PATH_MAX];
 
-		if (getcwd(cwd, sizeof(cwd))) {
-				puts(cwd);
-		} else {
-				fwrites( STDERR_FILENO, "pwd: error.\n");
-				return 1;
-		}
-		return 0;
+	if (getcwd(cwd, sizeof(cwd))) {
+		puts(cwd);
+	} else {
+		fwrites( STDERR_FILENO, "pwd: error.\n");
+		return 1;
+	}
+	return 0;
 }
