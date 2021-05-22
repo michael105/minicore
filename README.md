@@ -1,7 +1,7 @@
 Ongoing work. A soothing puzzle.
 
 I'm trying to get a usable unix system (without the kernel)
-within 64kB. All tools statically linked with [minilib](minilib).
+within 64kB. All tools statically linked with another project of mine, [https://github.com/michael105/minilib](https://github.com/michael105/minilib).
 
 Ok. Possibly it's going to be 128kB.
 But no more. 128kB ought to be enough for everycore. Eeh. Something like this.
