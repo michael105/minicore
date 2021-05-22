@@ -81,10 +81,10 @@ Done. `curl http://github.com/ ..TODO ` and you're good to go.
 
 
 
-The sources are partially written completely new, 
-partially scratched together from: suckless base utils, minutils, minix.
+The sources are mostly written completely new, 
+some parts scratched together from: suckless base utils, minutils, minix.
 
-I keep all copyright notices within the sources.
+I kept all copyright notices within the sources.
 
 Please, don't get this project too serious. 
 It's more sort of a soothing puzzle to me.
