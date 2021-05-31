@@ -1,14 +1,15 @@
 
-up: all
-	git commit -m 'update' -a
-	git push
-
 
 all: README.md
 	cd core 
 	$(make)
 	cd core 
 	$(make)
+
+
+up: all
+	git commit -m 'update' -a
+	git push
 
 
 
