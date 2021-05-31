@@ -7,6 +7,10 @@ up: all
 all: README.md
 	cd core 
 	$(make)
+	cd core 
+	$(make)
+
+
 
 .PHONY: README.md
 
