@@ -1,7 +1,7 @@
 Ongoing work. A soothing puzzle.
 
 I'm trying to get a usable unix system (without the kernel)
-within 64kB. All tools statically linked with another project of mine, [https://github.com/michael105/minilib](https://github.com/michael105/minilib).
+within 64kB. All tools statically linked with (minilib)[minilib].
 
 Ok. Possibly it's going to be 128kB.
 But no more. 128kB ought to be enough for everycore. Eeh. Something like this.
@@ -81,21 +81,13 @@ Done. `curl http://github.com/ ..TODO ` and you're good to go.
 
 
 
-The sources are mostly written completely new, 
-some parts scratched together from: suckless base utils, minutils, minix.
+The sources are partially written completely new, 
+partially scratched together from: suckless base utils, minutils, minix.
 
-I kept all copyright notices within the sources.
+I keep all copyright notices within the sources.
 
 Please, don't get this project too serious. 
 It's more sort of a soothing puzzle to me.
-
-At least ls and ls2 are not finished.
-I have to sort something out first, to not break the 64kB limit already.
-
-Either scripted pipes, e.g. ls | stat | sort | printf;
-or loading the elf hinaries dynamically as sort of plugins.
-Might work out, since they are all static and small.
-
 
 ---
 
