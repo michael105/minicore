@@ -89,6 +89,14 @@ I kept all copyright notices within the sources.
 Please, don't get this project too serious. 
 It's more sort of a soothing puzzle to me.
 
+At least ls and ls2 are not finished.
+I have to sort something out first, to not break the 64kB limit already.
+
+Either scripted pipes, e.g. ls | stat | sort | printf;
+or loading the elf hinaries dynamically as sort of plugins.
+Might work out, since they are all static and small.
+
+
 ---
 
 ### Tools working so far:
