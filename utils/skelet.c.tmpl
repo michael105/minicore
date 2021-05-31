@@ -1,0 +1,27 @@
+#if 0
+mini_start
+mini_group_write
+
+
+INCLUDESRC
+LDSCRIPT text_and_bss
+
+return
+#endif
+
+void usage(){
+		writes("usage: [arguments]\n"
+						"... \n" );
+		exit(1);
+}
+
+
+
+int main(int argc, char **argv){
+
+		if ( argc<2 || ( argv[1][0] == '-' && argv[1][1] == 'h' ) )
+				usage();
+
+
+		return(0);
+}
