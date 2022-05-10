@@ -18,7 +18,7 @@ static struct {
 /* Usage: uname [-a] [-s] [-n] [-r] [-v] [-m] */
 int main(int argc, const char *argv[])
 {
-	struct old_utsname uts;
+	struct new_utsname uts;
 	int i, flag;
 
 	flag = 0;
@@ -46,8 +46,8 @@ int main(int argc, const char *argv[])
 			opt.machine = 1;
 			flag = 1;
 		} else {
-			fprintfs(stderr, "%s: invalid argument: %s\n",
-				argv[0], argv[i]);
+			eprints(
+				argv[0], ": invalid argument: ", argv[i], "\n");
 			exit( 1 );
 		}
 	}
@@ -55,8 +55,7 @@ int main(int argc, const char *argv[])
 		opt.sys = 1;
 
 	if (uname(&uts)) {
-		fprintfs(stderr, "%s: %s\n",
-			argv[0], strerror(errno));
+		eprints( argv[0], ": ", strerror(errno),"\n");
 		exit( 1 );
 	}
 

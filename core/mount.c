@@ -7,6 +7,7 @@ mini_write
 mini_mount
 mini_open
 mini_errno
+mini_read
 
 #mini_printf
 #mini_printfs

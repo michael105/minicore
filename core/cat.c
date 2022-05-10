@@ -8,6 +8,7 @@ mini_read
 mini_write
 mini_fprintfs
 mini_open
+COMPILE close
 
 LDSCRIPT text_and_bss
 shrinkelf

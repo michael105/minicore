@@ -4,6 +4,7 @@ mini_writes
 
 mini_atoi
 mini_putchar
+mini_umask
 
 LDSCRIPT text_and_bss
 shrinkelf

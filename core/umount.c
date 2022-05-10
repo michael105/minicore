@@ -23,6 +23,7 @@ void usage(){
 int main(int argc, char *argv[]){
 		char *m = 0;
 		int flags = 0;
+		char buf[6];
 
 		if (argc < 2) {
 				usage();
@@ -66,7 +67,7 @@ int main(int argc, char *argv[]){
 		if ( umount2( m, flags ) ){
 				int err = errno;
 				fwrites(STDERR_FILENO, "Error: ");
-				write(STDERR_FILENO,errno_str(err),3);
+				write(STDERR_FILENO,errno_str(err,buf),3);
 				return(-1);
 		}
 

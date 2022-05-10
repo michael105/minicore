@@ -3,12 +3,13 @@
  mini_putchar
  mini_writes
  mini_errno
+ mini_symlink
+ mini_link
  INCLUDESRC
  LDSCRIPT textandbss
  shrinkelf
 return
 #endif
-#include "minilib.h"
 
 int main(int argc, char *argv[]){
 		if ( argc < 3 ){

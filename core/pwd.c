@@ -3,16 +3,16 @@ mini_start
 mini_puts
 mini_fwrites
 mini_getcwd
+mini_syscalls
 INCLUDESRC
-LDSCRIPT onlytext
+LDSCRIPT default
 shrinkelf
 return
 #endif
-#include "minilib.h"
 
 int main(int argc, const char *argv[])
 {
-	char cwd[PATH_MAX];
+	static char cwd[PATH_MAX];
 
 	if (getcwd(cwd, sizeof(cwd))) {
 		puts(cwd);

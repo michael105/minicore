@@ -1,31 +1,32 @@
 #if 0
 mini_start
 mini_write
-mini_puts
-mini_strlen
-LDSCRIPT onlytext
+#mini_strlen
+LDSCRIPT textandbss
 INCLUDESRC
 shrinkelf
 return
 #endif
 
-#include "minilib.h"
 
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[], char *envp[]){
 
-		if ( argc == 1 ){
-				for (;;){ 
-						puts("y");
-				}
-		} else {
-				for ( int a=1; a<argc-1; a++ ){
-						argv[a][strlen(argv[a])] = ' ';
-				}
-				for ( ;; ){
-				puts( argv[1] );
-				}
+	if ( argc == 1 ){
+		for (;;){ 
+			write(1,"y\n",2);
 		}
+	} else {
+		for ( int a=2; a<argc; a++ ){
+			argv[a][-1] = ' ';
+		};
+		//int len = strlen(argv[argc-1])+argv[argc-1]-argv[1];
+		int len = *envp-argv[1];
+		argv[1][len] = '\n';
+		for ( ;; ){
+			write( 1,argv[1],len+1 );
+		}
+	}
 
-		return(0);
+	return(0);
 }
 

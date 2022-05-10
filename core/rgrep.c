@@ -13,6 +13,8 @@ mini_die_if
 mini_printsl
 mini_printl
 mini_group_printf
+mini_buf 4000
+COMPILE fstat munmap close
 
 #DEBUG
 #FULLDEBUG
@@ -24,7 +26,6 @@ LDSCRIPT default
 return
 #endif
 
-#include "minilib/minilibcompiled.h"
 
 
 int main( int argc, char *argv[], char *envp[] ){

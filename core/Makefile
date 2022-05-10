@@ -1,5 +1,5 @@
 ifndef MINIGCC
-	MINIGCC=mini-gcc
+	MINIGCC=minimake
 endif
 
 

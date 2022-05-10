@@ -4,6 +4,7 @@ mini_writes
 mini_mkfifo
 mini_perror
 mini_errno
+mini_mknod
 
 LDSCRIPT text_and_bss
 shrinkelf

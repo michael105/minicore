@@ -7,6 +7,7 @@ mini_perror
 mini_writes
 mini_ewrites
 mini_eputs
+mini_sendfile
 
 
 #LDSCRIPT default

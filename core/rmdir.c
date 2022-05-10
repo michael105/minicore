@@ -3,6 +3,7 @@ mini_start
 mini_writes
 mini_perror
 mini_errno
+mini_rmdir
 LDSCRIPT text_and_bss
 shrinkelf
 INCLUDESRC

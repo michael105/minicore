@@ -10,6 +10,7 @@ mini_free
 mini_open
 mini_creat
 mini_strcmp
+COMPILE raise close lseek read
 
 
 mini_buf 192
