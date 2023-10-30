@@ -6,7 +6,7 @@ mini_ewrites
 mini_getresuid
 mini_exit_errno
 
-mini_buf 256
+#mini_buf 256
 mini_printf
 mini_itodec
 mini_strlen
@@ -33,7 +33,7 @@ int main(int argc, char *argv[]){
 		uid_t ruid, euid, suid;
 		int e;
 		if ( (e=getresuid( &ruid, &euid, &suid )) != 0 ){
-			printf("e: %d\n");
+			printf("e: %d\n",e);
 			exit_errno(e);
 		}
 		printf(" ruid  euid  suid\n%5d %5d %5d\n",ruid,euid,suid);
